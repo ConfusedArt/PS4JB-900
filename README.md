@@ -7,7 +7,7 @@ While it does work, I wouldn't reccomend depending on this site.
 
 Fork From: https://github.com/DarkModderVC/PS4JB
 # PS4JB
-This is an Offline full chain exploit for PS4 firmware 9.00 with 100% Success Rate.
+This is an Offline full chain exploit for PS4 firmware 9.00 with a High Success Rate.
 
 ## Steps
 
