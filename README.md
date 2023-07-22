@@ -1,3 +1,7 @@
+## Disclamer
+Use this at your OWN risk, No modifications were done to the Goldhen Payload By sistr0
+This Is not heavily worked on, as it takes a lot to maintain. Its more of a fun project.
+
 Fork From: https://github.com/DarkModderVC/PS4JB
 # PS4JB
 This is an Offline full chain exploit for PS4 firmware 9.00 with 100% Success Rate.
