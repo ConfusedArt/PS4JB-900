@@ -1,6 +1,31 @@
 <html manifest="offlineCache.manifest">
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<link rel="icon" type="image/x-icon" href="/ps4.jpg">
 	<style>
+		  a:link {
+         color: deepskyblue;
+         background-color: #000000;
+         text-decoration: none;
+      }
+      a:visited {
+         color: deepskyblue;
+         text-decoration: none;
+      }
+      a:active {
+         color: deepskyblue;
+      }
+
+.button {
+  background-color: #000000;  
+  border-radius: 5px;
+  color: deepskyblue;
+  padding: .5em;
+  text-decoration: none;
+  height:100%;
+  display:inline-table;
+  font-family: system-ui;
+}
+
 		.button {
 		  background-color: #000000;  
 		  border-radius: 5px;
@@ -14,14 +39,14 @@
 
 		.button:focus,
 		.button:hover {
-		  background-color: #585858;
-		  color: White;
+		  background-color: #000000;
+		  color: deepskyblue;
 		}
 
 		.titlehead {
 		  background-color: #000000;  
 		  border-radius: 5px;
-		  color: white;
+		  color: deepskyblue;
 		  padding: .5em;
 		  text-decoration: none;
 		  text-align: center;
@@ -32,8 +57,8 @@
 
 		.titlehead:focus,
 		.titlehead:hover {
-		  background-color: #585858;
-		  color: White;
+		  background-color: #000000;
+		  color: deepskyblue;
 		}
 
 		.bg {
@@ -69,14 +94,23 @@
 			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML="Caching Status: "+(Math.round(100*(a.loaded/a.total)))+"% Completed"};
 			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";setTimeout(function(){document.getElementById("progress").innerHTML="Turn Off the Internet & Reopen the Page to Run the Exploit!!"; }, 1500);};
 		</script>
-		<h1 id="progress" class="titlehead">PS4 Jailbreak 9.00</h1><hr><br>
+		<h1 id="progress" class="titlehead"><a href="/index.html">PS4 Jailbreak 9.00</a></h1><hr><br>
 		<input type="hidden" id="psip" value="localhost"/>
 		<div>
+			<center><h1 style="font-size:30px; 
+				font-weight:bold; 
+				color:black;
+				font-family: Arial, Helvetica, sans-serif" ">
+			bibngus exploit host
+			</h1></center>
 			<table align="center" style="width:600px;margin-top:30px;">
 			<tr>
 			<td align="center" id="exploit" colspan="2">
 			<a href="#" class="button" onclick="goldhen(); return false" style="width:43%">Exploit + GoldHEN V2.4b14</a>
 			</td>
 			</table></div>
+			<div style="position: absolute; bottom: 20px; color: rgb(187, 238, 255); background-color: #000000 ;font-family: Arial, Helvetica, sans-serif">
+				Modified By: <a href="https://github.com/ConfusedDiscord/PS4JB">ConfusedDiscord</a> | Original Host By <a href="https://github.com/DarkModderVC/PS4JB">DarkModder</a>
+				</div>
 	</body>
 </html>
