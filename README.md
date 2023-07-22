@@ -6,9 +6,7 @@ This is an Offline full chain exploit for PS4 firmware 9.00 with 100% Success Ra
 
 * Delete Cookies and Clear Website Data
 * Open the Exploit Page https://ps-4-jb.vercel.app
-* The Exploit gets cached. Turn off the Internet and Open the page and run the Jailbreak (Old Exploit/New Exploit)
-* Run HEN/MIRA after Jailbreak is complete
-* Once Payload loaded successfully, Open the Game
+* The Exploit gets cached. Turn off the Internet and Open the page and run the Jailbreak
 
 Note: If you face crashes, Unplug your PS4, Click power button few times and then connect it back and Power on.
 
