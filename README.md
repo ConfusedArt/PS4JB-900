@@ -2,8 +2,8 @@
 Currently Updated With GoldHen 2.4b14 | Goldhen 2.3 Stable
 This is only a host to load the GoldHen Payload.
 Use this at your OWN risk, No modifications were done to the Goldhen Payload By [SiSTR0](https://github.com/SiSTR0)
-This Is not heavily worked on, as it takes a lot to maintain. Its more of a fun project.
-While it does work, I wouldn't reccomend depending on this site.
+Its more of a fun personal project. It's not meant to replace any big hosts out there.
+While it does work, I wouldn't reccomend depending on this site for quick updates.
 
 Fork From: https://github.com/DarkModderVC/PS4JB
 # PS4JB
