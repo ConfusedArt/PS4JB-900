@@ -1,7 +1,7 @@
 function payload_finished(payload)
 {
 	setTimeout(function(){document.getElementById("progress").innerHTML="Load Successful!!";}, 3000);
-	if(payload == "goldhen"){
+	if(payload == "goldhen" || payload == "goldhenstable"){
 		localStorage.Fail--;
 		localStorage.Success++;
 		document.getElementById("success").innerHTML="Success: "+localStorage.Success;
@@ -13,6 +13,9 @@ function triggerFunction(payload){
 	if(payload == "goldhen"){
 		localStorage.Fail++;
 		goldhen();
+	}else if(payload == "goldhenstable"){
+		localStorage.Fail++;
+		goldhenstable();
 	}
 	loader();
 	payload_finished(payload);
